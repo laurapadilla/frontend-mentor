@@ -67,6 +67,8 @@ button {
   width: 150px;
   font-size: 0.875rem;
   padding: 5px 20px;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 button.btn--orange {
@@ -79,6 +81,11 @@ button.btn--cyan {
 
 button.btn--darkcyan {
   color: var(--dark-cyan);
+}
+
+button:hover {
+  background: none;
+  color: white;
 }
 
 @media (min-width: 768px) {
